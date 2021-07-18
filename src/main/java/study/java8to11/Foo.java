@@ -7,11 +7,13 @@ public class Foo {
       FunctionExample functionExample = new FunctionExample();
       LambdaExpExample lambdaExpExample = new LambdaExpExample();
       MethodRefExample methodRefExample = new MethodRefExample();
+      InfMethodExample infMethodExample = new InfMethodExample();
 
       //lambdaExample.testLambda();
       //functionExample.testFunction();
       //lambdaExpExample.testLambdaExp();
-      methodRefExample.testMethodRef();
+      //methodRefExample.testMethodRef();
+      infMethodExample.testInfMethod();
     }
 
 }
