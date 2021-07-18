@@ -6,10 +6,12 @@ public class Foo {
       LambdaExample lambdaExample = new LambdaExample();
       FunctionExample functionExample = new FunctionExample();
       LambdaExpExample lambdaExpExample = new LambdaExpExample();
+      MethodRefExample methodRefExample = new MethodRefExample();
 
       //lambdaExample.testLambda();
       //functionExample.testFunction();
-      lambdaExpExample.testLambdaExp();
+      //lambdaExpExample.testLambdaExp();
+      methodRefExample.testMethodRef();
     }
 
 }
