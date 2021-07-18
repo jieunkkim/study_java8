@@ -1,6 +1,6 @@
 package study.java8to11;
 
-public class Foo {
+public class Main {
 
     public static void main(String[] args) {
       LambdaExample lambdaExample = new LambdaExample();
