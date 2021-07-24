@@ -1,4 +1,4 @@
-package study.java8to11;
+package study.java8to11.lambda;
 
 @FunctionalInterface    // 함수형 Interface로 정의 가능
 public interface RunInt {

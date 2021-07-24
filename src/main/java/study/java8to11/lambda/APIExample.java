@@ -1,4 +1,4 @@
-package study.java8to11;
+package study.java8to11.lambda;
 
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
