@@ -5,8 +5,9 @@ public class OptionalMain {
     public void optionalMain(){
 
         OptionalExample optionalExample = new OptionalExample();
+        OptionalAPIExample optionalAPIExample = new OptionalAPIExample();
 
-        optionalExample.testOptional();
-
+        //optionalExample.testOptional();
+        optionalAPIExample.testOptionalAPI();
     }
 }
