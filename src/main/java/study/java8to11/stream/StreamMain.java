@@ -3,8 +3,10 @@ package study.java8to11.stream;
 public class StreamMain {
 
     public void streamMain(){
-        StreamExample basicExample = new StreamExample();
+        StreamExample streamExample = new StreamExample();
+        StreamAPIExample streamAPIExample = new StreamAPIExample();
 
-        basicExample.testStream();
+        //streamExample.testStream();
+        streamAPIExample.testStreamAPI();
     }
 }
