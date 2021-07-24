@@ -4,6 +4,9 @@ public class DateTimeMain {
 
     public void datetimeMain() throws InterruptedException {
         DateTimeExample dateTimeExample = new DateTimeExample();
-        dateTimeExample.testDateTime();
+        DateTimeAPIExample dateTimeAPIExample = new DateTimeAPIExample();
+
+        //dateTimeExample.testDateTime();
+        dateTimeAPIExample.testDateTimeAPI();
     }
 }
