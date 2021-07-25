@@ -1,5 +1,6 @@
 package study.java8to11;
 
+import study.java8to11.completablefuture.CompletableMain;
 import study.java8to11.datetime.DateTimeExample;
 import study.java8to11.datetime.DateTimeMain;
 import study.java8to11.lambda.*;
@@ -22,15 +23,18 @@ public class Main {
     // Date 와 Time
       DateTimeMain dateTimeMain = new DateTimeMain();
 
-
+    // CompletableFuture
+      CompletableMain completableMain = new CompletableMain();
 
       /*
       lambdaMain.lambdaMain();
       streamMain.streamMain();
       optionalMain.optionalMain();
+      dateTimeMain.datetimeMain();
       */
 
-        dateTimeMain.datetimeMain();
+        completableMain.completableMain();
+
 
     }
 
