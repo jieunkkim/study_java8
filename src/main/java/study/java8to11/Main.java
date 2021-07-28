@@ -3,6 +3,7 @@ package study.java8to11;
 import study.java8to11.completablefuture.CompletableMain;
 import study.java8to11.datetime.DateTimeExample;
 import study.java8to11.datetime.DateTimeMain;
+import study.java8to11.etc.EtcMain;
 import study.java8to11.lambda.*;
 import study.java8to11.optional.OptionalMain;
 import study.java8to11.stream.StreamMain;
@@ -28,15 +29,18 @@ public class Main {
     // CompletableFuture
       CompletableMain completableMain = new CompletableMain();
 
+    // 그 밖에 변화들
+      EtcMain etcMain = new EtcMain();
+
       /*
       lambdaMain.lambdaMain();
       streamMain.streamMain();
       optionalMain.optionalMain();
       dateTimeMain.datetimeMain();
+      completableMain.completableMain();
       */
 
-        completableMain.completableMain();
-
+    etcMain.etcMain();
 
     }
 
