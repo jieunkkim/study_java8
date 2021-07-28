@@ -7,6 +7,9 @@ public class CompletableFutureExp1 {
     public void testCompletableFuture1() throws ExecutionException, InterruptedException {
         /**
          * CompletableFuture
+         *
+         * CompletableFuture 를 사용해서 Return 값 받고, Callback 처리하는 방법 예제
+         *
          * 예제 1. CompletableFuture 를 사용하여 Future 기본값 셋팅하기 (complete, completedFuture)
          * 예제 2. Return 이 없는 작업 (runAsync), 있는 작업 (supplyAsync)
          * 예제 3. CompletableFuture 로 받은 값 Callback 수행하기 (thenApply, thenAccept, thenRun)
