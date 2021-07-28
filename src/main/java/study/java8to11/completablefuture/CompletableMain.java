@@ -7,9 +7,11 @@ public class CompletableMain {
         ConcurrentExample concurrentExample = new ConcurrentExample();
         ExecutorsExample executorsExample = new ExecutorsExample();
         CallableExample callableExample = new CallableExample();
+        CompletableFutureExp1 completableFuture1 = new CompletableFutureExp1();
 
         //concurrentExample.testConcurrent();
         //executorsExample.testExecutors();
-        callableExample.testCallable();
+        //callableExample.testCallable();
+        completableFuture1.testCompletableFuture1();
     }
 }
