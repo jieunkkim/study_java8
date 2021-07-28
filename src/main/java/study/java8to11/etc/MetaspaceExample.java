@@ -13,7 +13,7 @@ public class MetaspaceExample {
      *
      * Metaspace
      *  . 클래스 메타데이터를 담는 곳.
-     *  . Heap 영역이 아니라, Native 메모리 영역이다.
+     *  . Heap 영역이 아니라, Nativse 메모리 영역이다.
      *  . 기본값으로 제한된 크기를 가지고 있지 않다. (필요한 만큼 계속 늘어난다.)
      *  . 자바 8부터는 PermGen 관련 java 옵션은 무시한다.
      *    -XX:MetaspaceSize=N, Metaspace 초기 사이즈 설정.
