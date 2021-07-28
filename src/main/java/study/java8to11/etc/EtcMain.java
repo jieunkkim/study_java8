@@ -4,6 +4,7 @@ public class EtcMain {
 
     public void etcMain(){
 
-        AnnotationExample.testAnnotation();
+        //AnnotationExample.testAnnotation();
+        ParallelSortExample.testParallelSort();
     }
 }
